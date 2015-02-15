@@ -19,7 +19,7 @@ module.exports = {
   module: {
     loaders: [
       { test: /\.jsx$/,
-        loader: 'jsx-loader' },
+        loader: 'jsx-loader?harmony=true' },
       { test: /\.css$/,
         loader: CSSExtractor.extract("style-loader", "css-loader") },
       { test: /\.scss$/,

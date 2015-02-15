@@ -1,13 +1,11 @@
 'use strict';
 
-(global.JESTING ? null : require('./index.scss'));
+(1?null:require('./index.scss'));
 var React = require('react/addons');
 
 var TestView = React.createClass({
   getDefaultProps: function() {
-    return {
-      test: 2
-    };
+    return { test: 2 };
   },
 
   render: function() {
@@ -17,7 +15,7 @@ var TestView = React.createClass({
         <br />
         {this.props.test}
       </div>
-    )
+    );
   }
 });
 

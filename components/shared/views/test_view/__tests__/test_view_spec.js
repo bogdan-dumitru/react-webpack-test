@@ -1,6 +1,5 @@
 'use strict';
 
-global.JESTING=true;
 jest.dontMock('../index.jsx');
 var React, TestUtils;
 
