@@ -1,0 +1,19 @@
+{
+  "name": "react-webpack",
+  "version": "0.0.1",
+  "description": "Playing around with react and webpack to determine suitability for replacing the component build",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Bogdan Dumitru",
+  "license": "ISC",
+  "dependencies": {
+    "react-tools": "^0.12.2",
+    "jest": "^0.1.13",
+    "webpack": "^1.5.3",
+    "css-loader": "*",
+    "raw-loader": "*",
+    "extract-text-webpack-plugin": "*"
+  }
+}
