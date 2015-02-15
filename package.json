@@ -9,11 +9,31 @@
   "author": "Bogdan Dumitru",
   "license": "ISC",
   "dependencies": {
-    "react-tools": "^0.12.2",
-    "jest": "^0.1.13",
-    "webpack": "^1.5.3",
+    "6to5-core": "^3.6.5",
     "css-loader": "*",
+    "extract-text-webpack-plugin": "^0.3.8",
+    "jest": "^0.1.13",
+    "jest-cli": "^0.2.2",
+    "jsx-loader": "^0.12.2",
     "raw-loader": "*",
-    "extract-text-webpack-plugin": "*"
+    "react": "^0.12.2",
+    "react-tools": "^0.12.2",
+    "webpack": "^1.5.3",
+    "webpack-dev-server": "^1.7.0"
+  },
+  "jest": {
+    "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
+    "unmockedModulePathPatterns": [
+      "<rootDir>/node_modules/react"
+    ],
+    "testFileExtensions": [
+      "es6",
+      "js"
+    ],
+    "moduleFileExtensions": [
+      "js",
+      "jsx",
+      "es6"
+    ]
   }
 }
